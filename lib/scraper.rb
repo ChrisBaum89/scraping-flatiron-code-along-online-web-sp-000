@@ -10,8 +10,7 @@ class Scraper
   end
 
   def get_courses
-    vt = self.get_page.css(".post")
-    binding.pry
+    self.get_page.css(".post")
   end
 
   def make_courses
